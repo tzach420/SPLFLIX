@@ -14,12 +14,12 @@ Syntax: changeuser<user_name><br/>
 Example: "changeuser Yossi"
 - Delete User–Removes a given user.<br/>
 Syntax: deleteuser<user_name><br/>
-Example:"deleteuser Yossi"
+Example: "deleteuser Yossi"
 - Duplicate User–Creates a copy of the given user, with its watch history and recommendation algorithm, but with a new name.<br/>
 Syntax: dupuser<original_user_name><new_user_name><br/>
-Example:"dupuser YossiDavid" –Creates a copy of Yossi's user, with the name David.
+Example: "dupuser YossiDavid" –Creates a copy of Yossi's user, with the name David.
 - Print Content List–Prints all the watchable content available.<br/>
-Syntax:content<br/>
+Syntax: content<br/>
 - Print Watch History–Prints the watch history of the current active user.<br/>
 Syntax: watchhist
 - Watch–Watches a content.<br/>
@@ -28,8 +28,8 @@ Example: "watch 1"
 - Print Actions Log–Prints all the actions that were performed by all users (Excluding current log action), from the last one to the first.<br/>
 Syntax: log
 ## Compilation
-1.clone the repository.
-2.go to the local repository folder and open the terminal.
-3. type "make"
+1.clone the repository.<br/>
+2.go to the local repository folder and open the terminal.<br/>
+3. type "make"<br/>
 4. type "bin/splflix config1.json"
 
