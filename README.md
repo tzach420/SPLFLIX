@@ -6,6 +6,6 @@ At each point during the session, there is only one active user(while other user
 - RerunRecommender–This algorithm is intended for users who don't like new stuff.It will recommend content based on this user's watching history. Starting from the first watchable content, in a cyclic order.That is –the first watchable to be recommended is the first watchable watched by the user. Afterwards, if the last watchable that was recommended by the algorithm was at index i in the history, and the history is of length 𝑛 the next content to be recommended is at index (𝑖+1)𝑚𝑜𝑑𝑛.(3-letter code–rer) 
 - Similar Genre–This algorithm will recommend content based on the most popular tag in the user's watch history.If a set of tags has the same popularity, the algorithm will use lexicographic order to pick between them. It will recommend a content which is tagged by the most popular tag in the user's history, which wasn't already watched by this user. If no such content exists, it will try with the second most popular tag, and so on.(3-letter code–gen) 
 ## User commands:
--Create User–Creates a new userin the current session.<br/>
+- Create User–Creates a new userin the current session.<br/>
 Syntax: createuser<user_name> <recommendation_algorithm> Where the <recommendation_algorithm> is the 3-letter code for that algorithm.<br/>
 Example: createuser john len
