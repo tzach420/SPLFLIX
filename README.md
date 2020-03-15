@@ -9,4 +9,4 @@ At each point during the session, there is only one active user(while other user
 -Create User–Creates a new userin the current session.
 
 Syntax: createuser<user_name> <recommendation_algorithm> Where the <recommendation_algorithm> is the 3-letter code for that algorithm.
-  -Example: createuser john len
+Example: createuser john len
